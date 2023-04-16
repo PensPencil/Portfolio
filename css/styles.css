@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-family: 'Merriweather', serif;
+}
+#About,#Work,#contact{
+  background-color: #060047;
+  backdrop-filter: blur(100px);
+  padding: 5em 5em 3em;  
+  padding-top: 5%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/* navbar */
+.custom-navbar{
+  z-index: 2;
+  position: fixed;
+  top: 1em;
+  left: 35%;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  background-color: transparent;
+}
+.custom-navbar > a{
+  margin: 0.25em 3em;
+  text-decoration: none;
+  color: #E90064;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+}
+.custom-navbar a:hover{
+  color: #FF5F9E;
+}
+
+
+/* About */
+
+.profile{
+  text-align: center;
+  padding: 3%;
+}
+#About h1{
+  margin-bottom: 10%;
+  color: #B3005E;
+}
+#About img{
+  position: relative;
+  height: 16em;
+  width: 16em;
+  padding: 2%;
+  box-shadow :-4px -4px 10px #09006E,
+    inset 4px 4px 10px #060047,
+    inset -4px -4px 10px #09006E,
+    4px 4px 10px #060047;
+  border-radius: 50%;
+}
+.content{
+  color: #F9F5EB;
+}
+/* Work */
+#Work h1{
+  color: #B3005E;
+}
+/* #Work p{
+  color: #F9F5EB;
+} */
+#Work h2{
+  margin: 4% 0;
+  font-family: 'Ubuntu', sans-serif;
+  color: #E90064;
+}
+.skill{
+  text-align: center;
+  color: #F9F5EB;
+}
+.skill-label{
+  padding: 2%;
+}
+.skill-label > img{
+  height: 5em;
+  width: 5em;
+}
+
+.carousel-item > img{
+  height: 40em;
+}
+
+/* Contact */
+#contact h2 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#contact input,
+#contact textarea {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  border-bottom: 2px solid #0dcaf0;
+  box-shadow: none;
+  outline: none;
+}
+
+#contact textarea {
+  height: 200px;
+}
+
+#contact button {
+  background-color: #0dcaf0;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact button:hover {
+  background-color: #0b8fd6;
+}
+
+#contact input::placeholder,
+#contact textarea::placeholder {
+  color: #fff;
+  opacity: 0.5;
+}
+/* footer */
+footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  padding: 30px 0;
+}
+
+footer a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #343a40;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-social-icons i {
+  font-size: 24px;
+  /* margin-right: 20px; */
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-social-icons i:hover {
+  transform: translateY(-5px);
+}
+
+
